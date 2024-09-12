@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Dhruv!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Happy Birthday Dhruv Joshi! 🎉</h1>
+        <p>Wishing you a day full of happiness and a year full of joy!</p>
+        <button onclick="showMessage()">Click for a Surprise!</button>
+        <audio id="birthdaySong" src="birthday_song.mp3" autoplay loop></audio>
+        <button onclick="toggleMusic()">Stop Music 🎶</button>
+        <div class="balloons">
+            <img src="balloon1.png" alt="balloon" class="balloon">
+            <img src="balloon2.png" alt="balloon" class="balloon">
+        </div>
+    </div>
+    <div id="popup" class="popup hidden">
+        <p>🎂 Happy Birthday once again, Dhruv! May all your wishes come true! 🎂</p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+    <div id="confetti"></div>
+    <script src="script.js"></script>
+</body>
+</html>
